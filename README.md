@@ -4,7 +4,7 @@ Script to play video on CodeHS UltraKarel python.
 # Requirements
 - A new-ish Python (latest recommended, but it's probably fine as long as it supports shutil and the other requirements)
 - cv2-python
-- Python Image Library
+- Pillow (Python Image Library)
 
 # Instructions
 Create a new folder, put `videoconvert.py` into it, and download your video. Run `videoconvert.py` from the folder you created and follow the instructions.
