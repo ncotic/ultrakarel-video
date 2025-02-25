@@ -8,7 +8,7 @@ Script to play video on CodeHS UltraKarel python.
 - ffmpeg
 
 # Instructions
-Create a new folder, put `videoconvert.py` into it, and download your video. Download an ffmpeg binary from [ffmpeg.org](https://ffmpeg.org/download.html) and place the "ffmpeg" file into the folder with the script.
+Create a new folder, put `videoconvert.py` into it, and download your video. Download an ffmpeg binary from [ffmpeg.org](https://ffmpeg.org/download.html) and place the `ffmpeg` (if it has a file extension, remove it) file into the folder with the script.
 Run `videoconvert.py` from the folder you created and follow the instructions.
 
 ## Note
