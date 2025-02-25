@@ -5,7 +5,7 @@ from PIL import Image
 vidIn = input("Full path to video file: ")
 resize = int(input("Canvas size (will be square so just put 1 number): "))
 frame = int(input("Framerate for video: "))
-os.system(f"ffmpeg -y -i {vidIn} -vf scale={resize}:{resize},setsar=1 -r {frame} resize.mp4")
+os.system(f"./ffmpeg -y -i {vidIn} -vf scale={resize}:{resize},setsar=1 -r {frame} resize.mp4")
 vidFi = cv2.VideoCapture("resize.mp4")
 success,image = vidFi.read()
 count = 0
