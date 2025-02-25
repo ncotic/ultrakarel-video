@@ -5,9 +5,11 @@ Script to play video on CodeHS UltraKarel python.
 - A new-ish Python (latest recommended, but it's probably fine as long as it supports shutil and the other requirements)
 - cv2-python
 - Pillow (Python Image Library)
+- ffmpeg
 
 # Instructions
-Create a new folder, put `videoconvert.py` into it, and download your video. Run `videoconvert.py` from the folder you created and follow the instructions.
+Create a new folder, put `videoconvert.py` into it, and download your video. Download an ffmpeg binary from [ffmpeg.org](https://ffmpeg.org/download.html) and place the "ffmpeg" file into the folder with the script.
+Run `videoconvert.py` from the folder you created and follow the instructions.
 
 ## Note
 The script does resize your video to a square so its recommended to crop it beforehand unless you are fine with a little bit of squish or stretch.
